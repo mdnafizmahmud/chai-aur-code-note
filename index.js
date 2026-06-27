@@ -282,3 +282,17 @@ const coding = ["HTML", "CSS", "JS", "TS", "REACT.JS", "NEXT.JS"];
 //   return acc + item.price;
 // }, 0);
 // console.log(courses);
+
+// DOM => Document Object Model
+
+// document.getElementById("head").getAttribute("class") // class get
+// document.getElementById("head").setAttribute("class", "class value") // new class add
+
+// style set
+// Headers.style.background = "grean"
+
+// whats needs in you content
+// <h1>Animi numquam eveniet fugit facere aspernatur dolore! <span style="display: none;">Lorem, ipsum.</span></h1>
+
+// visible value needs so use (h1.innerText)
+// all value needs so use (h1.textContent)
