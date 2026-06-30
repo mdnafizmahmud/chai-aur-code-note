@@ -231,7 +231,7 @@
 //   console.log(arr[key]);
 // }
 
-const coding = ["HTML", "CSS", "JS", "TS", "REACT.JS", "NEXT.JS"];
+// const coding = ["HTML", "CSS", "JS", "TS", "REACT.JS", "NEXT.JS"];
 
 // const value = coding.forEach((item) => {
 //   return item;
@@ -296,3 +296,11 @@ const coding = ["HTML", "CSS", "JS", "TS", "REACT.JS", "NEXT.JS"];
 
 // visible value needs so use (h1.innerText)
 // all value needs so use (h1.textContent)
+
+// what is event propogation
+// Event propogation 2 pokar contest
+// 01. event bubling
+// 02. event capturing
+
+// 01. bubling hocche niche theke upore jay
+// 02. capturing upor thek niche jay
