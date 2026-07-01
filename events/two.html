@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Code and Coffee</h1>
+    <button>stop</button>
+  </body>
+  <script>
+    const changeText = () => {
+      document.querySelector("h1").innerHTML = "Best practice in the way";
+    };
+    let changeMe = setTimeout(changeText, 2000);
+
+    document.querySelector("button").addEventListener("click", () => {
+      clearTimeout(changeMe);
+    });
+  </script>
+</html>
